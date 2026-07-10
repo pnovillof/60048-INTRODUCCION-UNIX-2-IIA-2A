@@ -19,3 +19,10 @@ cd .. #simboliza la carpeta contenedora del directorio actual
 cd /
 #
 ls -a /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta/carpeta_hija
+gcc --version
+touch miprograma.c
+ls
+nano miprograma.c 
+cat miprograma.c
+gcc miprograma.c -o miprograma_bin
+./miprograma_bin

@@ -1,0 +1,48 @@
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A (main) $ history
+    1  ssh bandit0@bandit.labs.overthewire.org -p 2220
+    2  clear
+    3  history
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A (main) $ pwd
+/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A (main) $ cd carpeta
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ pwd
+/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ ls
+archivo  carpeta_hija
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ ls --all
+.  ..  archivo  carpeta_hija
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ ls -a
+.  ..  archivo  carpeta_hija
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ cd .
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ cd ..
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A (main) $ ls --all
+.  ..  .git  .gitignore  LICENSE  README.md  carpeta  image.png  miprograma.c  miprograma_bin  s1.sh  s2.sh
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A (main) $ cd .git
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/.git (main) $ cd ..
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A (main) $ ls
+LICENSE  README.md  carpeta  image.png  miprograma.c  miprograma_bin  s1.sh  s2.sh
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A (main) $ cd /
+@pnovillof ➜ / $ ls -a
+.   .codespaces  bin                boot  etc  home  lib.usr-is-merged  lib64  mnt  proc  run   sbin.usr-is-merged  sys  usr  vscode
+..  .dockerenv   bin.usr-is-merged  dev   go   lib   lib32              media  opt  root  sbin  srv                 tmp  var  workspaces
+@pnovillof ➜ / $ ls -a /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta/carpeta_hija
+.  ..  archivo_hija
+@pnovillof ➜ / $ cd /
+@pnovillof ➜ / $ cd workspaces
+@pnovillof ➜ /workspaces $ ls
+60048-INTRODUCCION-UNIX-2-IIA-2A
+@pnovillof ➜ /workspaces $ ls 60048-INTRODUCCION-UNIX-2-IIA-2A/
+LICENSE  README.md  carpeta  image.png  miprograma.c  miprograma_bin  s1.sh  s2.sh
+@pnovillof ➜ /workspaces $ cd ..
+@pnovillof ➜ / $ cd car
+bash: cd: car: No such file or directory
+@pnovillof ➜ / $ 
+@pnovillof ➜ / $ ls
+bin                boot  etc  home  lib.usr-is-merged  lib64  mnt  proc  run   sbin.usr-is-merged  sys  usr  vscode
+bin.usr-is-merged  dev   go   lib   lib32              media  opt  root  sbin  srv                 tmp  var  workspaces
+@pnovillof ➜ / $ cd workspaces/
+@pnovillof ➜ /workspaces $ ls
+60048-INTRODUCCION-UNIX-2-IIA-2A
+@pnovillof ➜ /workspaces $ cd 60048-INTRODUCCION-UNIX-2-IIA-2A/
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A (main) $ cd carpeta/
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ 

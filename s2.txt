@@ -42,4 +42,4 @@ bin                boot  etc  home  lib.usr-is-merged  lib64  mnt  proc  run   s
 bin.usr-is-merged  dev   go   lib   lib32              media  opt  root  sbin  srv                 tmp  var  workspaces
 @pnovillof ➜ / $ cd workspaces/
 @pnovillof ➜ /workspaces $ ls
-@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ 
+@pnovillof ➜ /workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/carpeta (main) $ terminal
